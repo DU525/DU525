@@ -103,7 +103,7 @@
 
 > 双模式 AI 视频工作台 · 导演台生产模式 + 卷轴展沉浸展示 · 非遗文化数字化
 
-**🔗 [查看项目 →](https://github.com/DU525/nonheritage-ai-video-platform)**
+**🔗 [查看项目 →](https://github.com/DU525/dreamforge-ai-video)**
 
 </td>
 </tr>
