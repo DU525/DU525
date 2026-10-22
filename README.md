@@ -8,7 +8,7 @@
 <!-- 身份徽章 -->
 <img src="https://img.shields.io/badge/Sussex_University-AI_%26_Adaptive_Systems-7FDBFF?style=for-the-badge&logo=github&logoColor=white" />
 <img src="https://img.shields.io/badge/%E4%B8%93%E4%B8%9A%E6%8E%92%E5%90%8D-Top_5%25-FF6B6B?style=for-the-badge" />
-<img src="https://img.shields.io/badge/%E6%B1%82%E8%81%8C-%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%20%2F%20%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%E7%AE%97%E6%B3%95-2ECC40?style=for-the-badge" />
+<img src="https://img.shields.io/badge/%E7%A0%94%E7%A9%B6%E6%96%B9%E5%90%91-%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%20%2F%20%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%E7%AE%97%E6%B3%95-2ECC40?style=for-the-badge" />
 
 <!-- 访问计数 -->
 <img src="https://komarev.com/ghpvc/?username=DU525&label=Profile+Visitors&color=7FDBFF&style=flat-square" alt="Profile Views" />
@@ -23,7 +23,7 @@
 - 🎓 硕士就读于英国萨塞克斯大学，专业排名前 **5%**，师从 Fernando Rosas 教授
 - 🧪 硕士论文与 Cambridge (Andrea Luppi) / Imperial (Pedro Mediano) 合作，用 **PID / ΦID 信息论框架**度量并归因世界模型中的潜在协同性
 - 🔬 关心的问题不是"模型看起来像不像"，而是**"它到底带来了多少可测量的价值，以及价值丢在哪一环"**
-- 💼 求职方向：具身智能 / 世界模型 **算法工程师（评测与因果归因方向）**
+- 🎯 研究方向：具身智能 / 世界模型 **算法工程师（评测与因果归因方向）**
 
 <!-- 研究方向 -->
 ## 🧭 研究方向
