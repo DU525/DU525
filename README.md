@@ -127,7 +127,7 @@
 |------|------|------|
 | RAGAS Faithfulness | 0.90 | 超行业基准 0.80 |
 | recall@5 | 92% | 超 FastGPT(90%) / Dify(88%) |
-| QPS | 5,100 | Flask→FastAPI 异步升级 (+2,733%) |
+| QPS | 5,100 | 缓存命中路径 · Locust 压测（历史本地测量，产物未入库） |
 | p99 延迟 | 45ms | Cross-Encoder 精排的精度-延迟 trade-off |
 | 缓存命中率 | 85% | L1 内存 LRU + L2 Redis + L3 SimHash 语义缓存 |
 
@@ -185,7 +185,6 @@
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=DU525&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7FDBFF&icon_color=2ECC40&text_color=C9D1D9" alt="GitHub Stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DU525&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7FDBFF&icon_color=2ECC40&text_color=C9D1D9" alt="Top Languages" />
 
-<img width="680" src="https://github-readme-activity-graph.vercel.app/graph?username=DU525&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=7FDBFF&line=2ECC40&point=FF6B6B&area=true&custom_title=%F0%9F%93%88%20%E8%BF%91%E6%9C%9F%E6%B4%BB%E8%B7%83%E5%BA%A6" alt="Activity Graph" />
 
 </div>
 
