@@ -21,7 +21,7 @@
 ## 🔍 关于我
 
 - 🎓 硕士就读于英国萨塞克斯大学，专业排名前 **5%**，师从 Fernando Rosas 教授
-- 🧪 硕士论文与 Cambridge (Andrea Luppi) / Imperial (Pedro Mediano) 合作，用 **PID / ΦID 信息论框架**度量并归因世界模型中的潜在协同性
+- 🧪 硕士论文用 **PID / ΦID 信息论框架**度量并归因世界模型中的潜在协同性
 - 🔬 关心的问题不是"模型看起来像不像"，而是**"它到底带来了多少可测量的价值，以及价值丢在哪一环"**
 - 🎯 研究方向：具身智能 / 世界模型 **算法工程师（评测与因果归因方向）**
 
@@ -31,7 +31,7 @@
 | 方向 | 我在做什么 | 证据 |
 |------|-----------|------|
 | **世界模型评测** | 把"成功率"拆成 *机会* 与 *排序损失*：同一物理状态分叉执行多个候选首动作，判断瓶颈在候选集覆盖还是模型排序 | `paired-counterfactual-eval`（开源工具） |
-| **信息论归因** | 用 PID / ΦID 分解潜在状态的协同、冗余、独有信息；四架构消融验证门控序列结构对协同性的影响 | 硕士论文工作（Sussex × Cambridge × Imperial） |
+| **信息论归因** | 用 PID / ΦID 分解潜在状态的协同、冗余、独有信息；四架构消融验证门控序列结构对协同性的影响 | 硕士论文工作（信息论实验） |
 | **工程化落地** | 让评测本身可信：原子写盘 + SHA256 清单 + 单次提交点、步数预算前置计量、预注册配置哈希 | 125+ 预注册实验，629 万行 OOF 预测重放误差 0 |
 
 <!-- 精选项目 -->
@@ -153,11 +153,13 @@
 ---
 
 ### 📝 硕士论文 — 动作条件世界模型中潜在协同性的度量与归因
-> Sussex × Cambridge × Imperial 合作 · PID / ΦID 框架下的信息论实验
+> PID / ΦID 框架下的信息论实验
 
-- **核心发现**：世界模型训练后，随机潜在状态的极大对协同性显著降低；门控 / 选择性序列结构（Mamba）使该效应更强且更稳定
-- **实验设计**：4 种序列核心（0-gate SSM → 1-gate Mamba-lite → 2-gate SSM → trueMamba）消融对比，四架构 Δz 均为负且跨 12/12、12/12、11/12、18/24 个种子成立
-- **方法论价值**：为模型鲁棒性与可解释性提供信息论审计框架
+- **方法**：把潜在状态的多变量信息分解为协同、冗余、独有三部分，用极大对协同性作为「整合程度」的度量
+- **实验设计**：4 种序列核心（0-gate SSM → 1-gate Mamba-lite → 2-gate SSM → trueMamba）做门控结构消融，跨多个随机种子重复
+- **关注点**：这套框架能否当作模型鲁棒性与可解释性的审计工具，而不只是训练指标
+
+> 论文尚未公开，结果与方法细节待发表后补充。
 
 <!-- 技术栈 -->
 ## 🛠️ 技术栈
@@ -177,12 +179,11 @@
 | **后端 / 部署** | Python · FastAPI 异步架构 · WebSocket · SQLAlchemy · Docker Compose · Kubernetes (HPA) · Prometheus + Grafana |
 | **前端** | TypeScript · React 18 · Vite · TailwindCSS · Zustand · Framer Motion |
 
-<!-- GitHub 统计卡片 -->
+<!-- 代码语言分布 -->
 <div align="center">
 
-### 📊 GitHub 统计
+### 📊 代码语言分布
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DU525&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7FDBFF&icon_color=2ECC40&text_color=C9D1D9" alt="GitHub Stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DU525&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7FDBFF&icon_color=2ECC40&text_color=C9D1D9" alt="Top Languages" />
 
 </div>
